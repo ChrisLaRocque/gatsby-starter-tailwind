@@ -4,7 +4,6 @@ import { graphql } from "gatsby";
 import { GatsbyImage, StaticImage, getImage } from "gatsby-plugin-image";
 
 export default function UsingImages({ data }) {
-  console.log(data);
   const image = getImage(data.file.childImageSharp);
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -12,7 +11,10 @@ export default function UsingImages({ data }) {
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold py-16">
           Using{" "}
-          <a className="text-purple-600" href="https://www.gatsbyjs.com/">
+          <a
+            className="text-purple-600"
+            href="https://www.gatsbyjs.com/plugins/gatsby-plugin-image/"
+          >
             GatsbyImage&nbsp;
           </a>
           <span role="img" aria-label="Picture emoji">
@@ -23,7 +25,7 @@ export default function UsingImages({ data }) {
         <p className="mt-3 text-2xl">
           See this code at{" "}
           <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/using-images.jsx
+            pages/using-gatsby-plugin-image.jsx
           </code>
         </p>
         <div className="mt-9 text-xl leading-7">
