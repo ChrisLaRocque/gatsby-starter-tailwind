@@ -56,7 +56,7 @@ export default function IndexPage() {
         <h1 className="text-6xl font-bold py-16">
           Welcome to{" "}
           <a className="text-purple-600" href="https://www.gatsbyjs.com/">
-            Gatsby.js!
+            Gatsby.js!&nbsp;
           </a>
           <span role="img" aria-label="Party popper emojis">
             🎉🎉🎉
