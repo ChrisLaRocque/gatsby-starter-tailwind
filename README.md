@@ -4,18 +4,19 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby+Tailwind starter
 </h1>
 
 ## 🚀 Quick start
+FYI this starter was built using Node v14
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Use the Gatsby CLI to create a new site, specifying this starter.
 
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    # create a new Gatsby site using this starter
+    npx gatsby new gatsby-starter-tailwind https://github.com/gatsbyjs/gatsby-starter-contentful-homepage
     ```
 
 2.  **Start developing.**
@@ -23,7 +24,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
+    cd gatsby-starter-tailwind/
     npm run develop
     ```
 
