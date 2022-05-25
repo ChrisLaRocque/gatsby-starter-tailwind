@@ -7,6 +7,9 @@
   Gatsby+Tailwind starter
 </h1>
 
+## Example
+[https://gatsbystartertailwindcss.gatsbyjs.io/](https://gatsbystartertailwindcss.gatsbyjs.io/)
+
 ## 🚀 Quick start
 FYI this starter was built using Node v14
 
