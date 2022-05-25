@@ -66,7 +66,7 @@ export default function IndexPage() {
         <p className="mt-3 text-2xl">
           Get started by editing{" "}
           <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
+            pages/index.jsx
           </code>
         </p>
 
