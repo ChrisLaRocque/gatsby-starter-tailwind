@@ -19,7 +19,7 @@ FYI this starter was built using Node v14
 
     ```shell
     # create a new Gatsby site using this starter
-    npx gatsby new gatsby-starter-tailwind https://github.com/gatsbyjs/gatsby-starter-contentful-homepage
+    npx gatsby new gatsby-starter-tailwind https://github.com/ChrisLaRocque/gatsby-starter-tailwind
     ```
 
 2.  **Start developing.**
